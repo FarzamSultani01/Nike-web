@@ -16,13 +16,16 @@ function App() {
   <div className='grid grid-cols-3 gap-2 mt-2 mx-2'>
     <div className='h-16  rounded-full bg-fuchsia-500'> </div>
     <div className='h-16  rounded-full bg-teal-500'> </div>
-    <div className='h-16  rounded-full bg-amber-600'> </div>
+     <div className='h-16  rounded-full bg-amber-600'> </div>
    </div>
    <div className='sm:bg-amber-400 md:bg-green-400 lg:bg-blue-400 xl:bg-red-400 2xl:bg-purple-400 h-16 w-full rounded-md mt-2 flex items-center justify-center'>
     <p className='text-white'>I appear on s creen wider than 768px</p>
    </div>
-
+   <div className='bg-white dark:bg-black text-black dark:text-white'>
     <p>!Dark Mode enable</p>
+   </div>
+   <div className='bg-chestnut '>
+    <p>Working on costum styling in tailwind</p>
    </div>
     </main>
   )

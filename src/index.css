@@ -7,3 +7,16 @@ body{
   background-color: #10172a;
 }
 
+ @theme{
+  --color-chestnut: #7B3F00;
+ }
+ @layer base {
+  h1{
+    font-size: var(--text-2xl);
+  }
+ }  /* change the style of the h1 element to have a font size of 2xl globally across the application. */
+@layer components {
+  .btn{
+    @apply bg-chestnut text-white font-bold py-2 px-4 rounded;
+  }
+ } /* create a custom button component with a chestnut background, white text, bold font, padding, and rounded corners. */
