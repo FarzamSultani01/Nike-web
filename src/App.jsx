@@ -21,7 +21,7 @@ function App() {
    <div className='sm:bg-amber-400 md:bg-green-400 lg:bg-blue-400 xl:bg-red-400 2xl:bg-purple-400 h-16 w-full rounded-md mt-2 flex items-center justify-center'>
     <p className='text-white'>I appear on s creen wider than 768px</p>
    </div>
-   <div className='bg-white dark:bg-black text-black dark:text-white'>
+
     <p>!Dark Mode enable</p>
    </div>
     </main>
